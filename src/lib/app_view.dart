@@ -23,7 +23,10 @@ class _AppViewState extends State<AppView> {
             primarySwatch: Colors.blue,
           ),
           onGenerateRoute: AppRouter.generateRoute,
-          home: Container(),
+          initialRoute: AppRouter.home,
+          // locale: appState.languageCode.localeCode,
+          //initialRoute: AppRouter.,
+          // home: AppNavigationTab(),
         );
       },
     );
